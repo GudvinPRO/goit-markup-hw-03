@@ -219,6 +219,17 @@ body {
 }
 
 .title-link {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
 }
 
 .title-list {
@@ -245,6 +256,7 @@ body {
 
 .title-adress-list {
     font-style: normal;
+    display: flex;
 }
 
 .title-contacts {
