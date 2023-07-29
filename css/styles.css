@@ -369,6 +369,7 @@ body {
 .title-list-link {
     text-decoration: none;
     color: var(--navyblue);
+    padding: 24px 0;
 }
 
 .title-adress {
