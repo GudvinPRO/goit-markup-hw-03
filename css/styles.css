@@ -99,8 +99,8 @@ body {
 .main-board-button {
     background: var(--iris);
     color: var(--white);
-    /*margin-top: 48px;
-    margin-left: 636px;*/
+    margin-top: 48px;
+    margin-left: 636px;
     /* Button Text */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
