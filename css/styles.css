@@ -127,6 +127,7 @@ body {
 /*------------------------------section 2-------------------------------*/
 
 .section-preview{
+    padding: 120px 0;
 }
 
 .head_conteiner_preview {
@@ -144,6 +145,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 .list_container {
     display: flex;
@@ -154,7 +156,7 @@ body {
 }
 
 .container_menu_list {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-preview-text {
