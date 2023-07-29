@@ -153,6 +153,7 @@ body {
     padding-right: 156px;
     padding-top: 120px;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .container_menu_list {
@@ -169,7 +170,6 @@ body {
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-preview-paragraph {
