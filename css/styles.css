@@ -429,6 +429,8 @@ body {
 /*------------------------------section-------------------------------*/
 
 .title-button {
+    padding-top: 96px;
+    padding-bottom: 120px; 
 }
 
 .container-bottom {
@@ -457,7 +459,8 @@ body {
     list-style: none;
     display: flex;
     gap: 24px;
-    padding-left: 427px;
+    justify-content: center;
+    margin-bottom: 72px;
 } 
 
 .title-button-menu {
@@ -478,6 +481,7 @@ body {
 .title-button-menu:hover, .title-button-menu:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .container-images-menu {
@@ -487,18 +491,23 @@ body {
 .title-images-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
-    padding: 72px 156px 120px 156px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .list_menu_images {
-    width: 360px;
-    height: 420px;
+    width: calc((100% - 48px) / 3); 
     border: 1px solid var(--cornflower);
     background: var(--white);
 }
 
 .list-content {
+}
+
+.inside_img {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 
 .title-images-menu-title {
@@ -509,8 +518,7 @@ body {
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
 
 .title-images-menu-paragraph {
