@@ -317,6 +317,7 @@ body {
     text-transform: uppercase;
     text-decoration-line: none;
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -358,6 +359,7 @@ body {
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .title-list-link:hover, .title-list-link:focus {
