@@ -300,6 +300,8 @@ body {
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -311,6 +313,7 @@ body {
     height: 312px;
     flex-shrink: 0;
     background: var(--navyblue);
+    padding: 100px 0 
 }
 
 .footer-down-paragraph {
