@@ -14,9 +14,14 @@ p {
     margin: 0;
 }
 
-ul {
+ul,
+ol {
     margin: 0;
     padding-left: 0;
+}
+
+img {
+    display: block;
 }
 
 
