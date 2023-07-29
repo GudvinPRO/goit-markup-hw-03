@@ -145,8 +145,12 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.class {
     margin-bottom: 8px;
 }
+
 .list_container {
     display: flex;
     padding-left: 156px;
