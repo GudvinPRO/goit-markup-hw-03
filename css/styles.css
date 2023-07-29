@@ -224,16 +224,16 @@ body {
 }
 
 .fourth-section {
+    padding: 120px 0;
 }
 
 .staff {
-    width: 1440px;
     background-color: #F4F4FD;
 }
 
 .section-imeges-title-personnel {
     color: var(--navyblue);
-    padding-top: 120px;
+    margin-bottom: 72px;
     /* Header 2 */
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -248,12 +248,16 @@ body {
 .fourth-section-list {
     background-color: #FFFFFF;
     text-align: center;
-    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+}
+
+.inside-personnel {
+    padding: 32px 0;
+
 }
 
 .section-title-personnel-text {
     color: var(--navyblue);
-    padding-top: 32px;
     /* Header 3 */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -261,6 +265,8 @@ body {
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .section-paragraph-personnel-text {
@@ -274,6 +280,7 @@ body {
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    text-align: center; 
 }
 
 /*------------------------------footer html-------------------------------*/
