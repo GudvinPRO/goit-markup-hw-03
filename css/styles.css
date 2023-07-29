@@ -331,8 +331,8 @@ body {
 .navigation {
     display: flex;
     align-items: center;
-    gap: 76px;
-    margin-left: 156px;
+    /*gap: 76px;
+    margin-left: 156px;*/
 }
 
 .header_container {
@@ -345,8 +345,8 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    /*width: 1440px;
     height: 72px;
+    /*width: 1440px;
     align-items: center;
     flex-shrink: 0;*/
 }
@@ -372,7 +372,7 @@ body {
 .title-adress {
     font-style: normal;
     margin-left: auto;
-    margin-right: 156px;
+    /*margin-right: 156px;*/
 }
 
 .title-adress-list {
