@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,
@@ -153,7 +153,6 @@ body {
     padding-right: 156px;
     padding-top: 120px;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .container_menu_list {
@@ -186,13 +185,15 @@ body {
 
 /*------------------------------section 3-------------------------------*/
 
-.conteiner_imeges_title{
+.section-images_conteiner {
+    padding-bottom: 120px;
+}
+.conteiner_imeges_title {
     width: 1440px;
 }
 
 .section-imeges-title {
     color: var(--navyblue);
-    padding-top: 120px;
     /* Header 2 */
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -202,12 +203,13 @@ body {
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize; 
+    margin-bottom: 72px;
 }
 
 .images_conteiner {
     display: flex;
     gap: 24px;
-    padding: 72px 156px 120px;
+    width: calc((100% - 48px) / 3);
 }
 
 /*------------------------------section 4-------------------------------*/
