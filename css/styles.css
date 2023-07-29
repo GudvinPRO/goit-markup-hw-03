@@ -78,9 +78,10 @@ body {
 
 .main-board {
     background: var(--navyblue);
-    width: 1440px;
-    height: 600px;
+    /*width: 1440px;
+    height: 600px;*/
     flex-shrink: 0;
+    padding: 188px 0
 }
 
 .main-board-title {
@@ -339,6 +340,7 @@ body {
 .header_container {
     display: flex;
     align-items: center;
+    height: 72px;
 }
 
 .container {
@@ -346,8 +348,9 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    height: 72px;
+    
     /*width: 1440px;
+    height: 72px;
     align-items: center;
     flex-shrink: 0;*/
 }
