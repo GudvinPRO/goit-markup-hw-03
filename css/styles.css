@@ -92,15 +92,15 @@ body {
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 188px;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .main-board-button {
     background: var(--iris);
     color: var(--white);
+    margin: 0 auto;
     margin-top: 48px;
-    margin-left: 636px;
     /* Button Text */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -149,9 +149,6 @@ body {
 
 .list_container {
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-top: 120px;
     gap: 24px;
 }
 
@@ -219,16 +216,15 @@ body {
 
 .fourth-container {
     display: flex;
-    padding: 72px 156px 120px;
     gap: 24px;
 }
 
 .fourth-section {
     padding: 120px 0;
+    background-color: #F4F4FD;
 }
 
 .staff {
-    background-color: #F4F4FD;
 }
 
 .section-imeges-title-personnel {
@@ -272,8 +268,6 @@ body {
 
 .section-paragraph-personnel-text {
     color: var(--slate);
-    padding-top: 8px;
-    padding-bottom: 32px;
     /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
